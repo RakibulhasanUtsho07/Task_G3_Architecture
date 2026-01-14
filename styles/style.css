@@ -96,6 +96,7 @@
 /* banner styles */
 .banner-container{
     text-align: center;
+    width: 100%;
 }
 .banner-heading{
     margin-bottom: 32px;
@@ -113,6 +114,7 @@
 /* Teams and features related styles */
 .teams{
     margin-top: 130px;
+    width: 100%;
 }
 .teams{
     align-items: center;
@@ -139,6 +141,7 @@
 .features{
     margin-top: 130px;
     gap: 73px;
+    width: 100%;
 }
 .features-heading{
     border-left: 7px solid #FF900E;
@@ -152,6 +155,9 @@
     box-shadow: 0 5px 30px #13131313;
     margin-bottom: 20px;
     border-radius: 4px;
+}
+.features-image{
+    width: 100%;
 }
 .card-heading{
     font-size: 20px;
@@ -252,9 +258,23 @@
         flex-direction: column;
         text-align: center;
     }
+    .navbar ,
+.banner,
+.teams,
+.features,
+.facts,
+.sponsor,
+.copyright
+{
+    width: 100%;
+    
+}
+    .login{
+        margin-left: 0;
+    }  
     .team-image-container, .facts-card , .sponsor-company {
     
-    grid-template-columns: repeat(1 , 1fr);
+     grid-template-columns: repeat(1 , 1fr);
     
 
     
@@ -271,8 +291,14 @@
     .facts-card {
         gap: 30px;
     }
+    .sponsor{
+        margin-top: 40px;
+    }
     .sponsor-company{
         gap: 30px;
+    }
+    .footer{
+        margin-top: 40px;
     }
     
 }
