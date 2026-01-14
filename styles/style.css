@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+/* shared styles */
+.display-flex{
+    display: flex;
+
+}
+.navbar ,
+.banner,
+.teams,
+.features,
+.facts,
+.sponspor,
+.copyright
+{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+
+.text-heading,
+.team-text,
+.features-text,
+.card-text,
+.facts-tittle,
+.sponspor-tittle,
+.footer-tittle{
+    font-size: 16px;
+    color: #727272;
+    line-height: 26px;
+}
+.btn{
+    background-color: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+}
+.explore{
+    padding: 21px 24px 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 50px ;
+    
+}
+.team-tittle,
+.features-heading,
+.facts-heading,
+.sponspor-heading{
+    font-size: 45px;
+    color: #131313;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+ 
+/* header  styles */
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* nav bar related styles */
+.navbar{
+    
+    justify-content: space-between;
+}
+.header-tittle{
+    font-size: 45px;
+    font-weight: bold;
+    color: #131313;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 40px;
+    
+    
+}
+.nav-links{
+    align-items: center;
+}
+.nav-link{
+    text-decoration: none;
+}
+.login{
+    margin-left: 50px;
+    background-color: aqua;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+/* banner styles */
+.banner-container{
+    text-align: center;
+}
+.banner-heading{
+    margin-bottom: 32px;
+    font-size: 64px;
+    font-weight: bold;
+    color: #131313;
+}
+.banner-text{
+    margin-bottom: 32px;
+}
+.banner-image{
+    border-radius: 8px;
+    margin-bottom: 45px;
+}
+/* Teams and features related styles */
+.teams{
+    margin-top: 130px;
+}
+.teams{
+    align-items: center;
+    gap: 73px;
+}
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 24px;
+}
+
+.team-tittle-dif{
+    
+    color: #727272;
+    font-weight: 500;
+}
+.team-tittle-color{
+    color: #FF900E;
+}
+.team-text{
+    margin-bottom: 32px;
+}
+/* Architecture and features realted styles */
+.features{
+    margin-top: 130px;
+    gap: 73px;
+}
+.features-heading{
+    border-left: 7px solid #FF900E;
+    padding: 7px;
+}
+.features-text{
+    margin-bottom: 30px;
+}
+.features-card{
+    padding: 20px;
+    box-shadow: 0 5px 30px #13131313;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.card-heading{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.format{
+    padding: 40px 40px;
+    margin-top: -200px;
+    margin-left: -60px;
+
+    
+    
+
+}
+.year{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 10px;
+    margin-bottom: 10px;
+}
+.experience{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+/* Facts and facts card style */
+.facts-card{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 120px;
+    
+}
+.facts-heading{
+
+}
+.award-card{
+    margin-left: 40px;
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid #FF900E;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.award-card h3{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 15px;
+}
+.award-card p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+.sponspor-company{
+    
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    
+}
+.sponspor{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.sponspor-heading{
+    margin-bottom: 10px;
+}
+.sponspor-tittle{
+    margin-bottom: 50px;
+
+}
+.copyright{
+    background-color: rgba(255, 144, 14, 0.1) ;
+}
+.footer{
+    padding: 30px;
+     display: flex;
+     justify-content: center;
+     justify-items: center;
+     border-radius: 8px;
+}
+
+
